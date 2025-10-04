@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ayesha Shaik</title>
+
+  <!-- boxicons -->
+<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+<!-- In <head> -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- custom css -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<header>
+  <!-- Bootstrap Navbar -->
+  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+    <div class="container">
+
+      <!-- Logo (Left Side) -->
+      <a href="#" class="navbar-brand logo">Ayesha Shaik</a>
+
+      <!-- Toggler for Mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu"
+        aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!-- Navbar Links (Right Side) -->
+      <div class="collapse navbar-collapse justify-content-end" id="menu">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a href="#home" class="nav-link text-white active">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#services" class="nav-link text-white">Services</a>
+          </li>
+          <li class="nav-item">
+            <a href="#resume" class="nav-link text-white">Resume</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link text-white">Contact</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+
+
+</header>
+
+<section class="home" id="home">
+  <div class="home-detail">
+    <h1 class="h1">Ayesha Shaik</h1>
+    <h2>I'm a
+        <span style = "--i:4;" data-text = "Data Analyst">Data Analyst</span>
+          <span style = "--i:3;" data-text = "Python Programmer">Python Programmer</span>
+        <span style = "--i:2;" data-text = "Full Stack Developer">Full Stack Developer</span>
+       <span style = "--i:1;" data-text = "Data Scientist">Data Scientist</span>
+    </h2>
+<p>I am a passionate and results-oriented data enthusiast with a strong foundation in various programming languages and tools. My journey towards becoming a data scientist is fueled by a desire to leverage the power of data to solve complex problems and extract valuable insights that drive informed decision-making</p>
+ <div class="btn-sci">
+   <a href="resume.pdf" class="btn">Download CV</a>
+   <div class="sci">
+   <a href="https://www.linkedin.com/in/s-ayesha-as1401/"><i class='bx bxl-linkedin'></i></a>
+   <a href="https://github.com/shaikayesha-sk"><i class='bx bxl-github'></i></a>
+      <a href="mailto:ayesha.erml@email.com"><i class='bx bxl-gmail'></i></a>
+   <a href="https://www.kaggle.com/aass12"><i class="fab fa-kaggle"></i></a>
+
+ </div>
+ </div>
+  </div>
+<div class="home-img">
+   <div class="img-box">
+     <div class="img-item">
+       <img src="images/PNG2.png" alt="profile"/>
+     </div>
+   </div>
+</div>
+</section>
+<section class="services" id="services">
+<h2 class="heading">My <span>Services</span></h2>
+
+<div class="services-container">
+
+<div class="service-box">
+<i class='bx bx-bar-chart-alt'></i>
+<h3>Data Analysis & Visualization</h3>
+<p>I analyze and visualize data using Python, SQL, and Tableau to uncover actionable insights that drive business growth.</p>
+</div>
+
+<div class="service-box">
+<i class='bx bx-code-alt'></i>
+<h3>Web Development</h3>
+<p>I build responsive and dynamic websites using PHP, HTML, CSS, and MySQL, ensuring performance and usability.</p>
+</div>
+
+<div class="service-box">
+<i class='bx bx-brain'></i>
+<h3>Machine Learning & AI Solutions</h3>
+<p>I create predictive models and automation systems using Python and R to solve real-world problems efficiently.</p>
+</div>
+
+<div class="service-box">
+<i class='bx bx-pie-chart-alt'></i>
+<h3>Dashboard Development</h3>
+<p>I design interactive dashboards using Tableau and Power BI to help visualize KPIs and make data-driven decisions.</p>
+</div>
+
+<div class="service-box">
+<i class='bx bx-data'></i>
+<h3>Data Cleaning & Automation</h3>
+<p>I clean and automate data workflows using Python and SQL, improving efficiency and accuracy for analysis tasks.</p>
+</div>
+
+<!-- 🌟 New service added -->
+<div class="service-box">
+<i class='bx bx-mobile-alt'></i>
+<h3>App Development</h3>
+<p>I develop user-friendly Android and web applications using modern frameworks that ensure high performance and scalability.</p>
+</div>
+
+</div>
+</section>
+                           <!-- resume section -->
+                           <section class="resume-section" id="resume">
+                             <h1 class="resumeh1"> <span class="h1about">About</span> Me</h1>
+                               <div class="resume-container">
+
+                                 <!-- Left Buttons -->
+                                 <div class="resume-buttons">
+                                   <button class="btn active" onclick="showSection('education', event)">Education</button>
+                                   <button class="btn" onclick="showSection('experience', event)">Experience</button>
+                                   <button class="btn" onclick="showSection('skills', event)">Skills</button>
+                                   <button class="btn" onclick="showSection('projects', event)">Projects</button>
+                                 </div>
+
+                                 <!-- Right Content -->
+                                 <div class="resume-content">
+
+                                   <!-- Education -->
+                                   <div id="education" class="content active">
+                                     <h2>Education</h2>
+
+                                     <h3 class="subheading">2021 - 2025</h3>
+                                     <p><span>B.Tech in Computer Science & Engineering</span><br>
+                                       Currently pursuing a B.Tech degree at <b>Amity University</b>, honing my skills in programming and software
+                                       development. Eager to leverage my foundation in computer science to excel in the data science field.
+                                     </p>
+
+                                     <h3 class="subheading">2019 - 2021</h3>
+                                     <p><span>Intermediate Education</span><br>
+                                       Completed Class 11 & 12 at <b>Sri Chaitanya College</b> (MPC Stream). Gained strong fundamentals in
+                                       Mathematics, Physics, and Chemistry, building the base for engineering studies.
+                                     </p>
+
+                                     <h3  class="subheading">2018 - 2019</h3>
+                                     <p><span>Matriculation</span><br>
+                                       Focused on English, Hindi, Math, Science, and Social Studies. Actively participated in extracurricular
+                                       activities and developed teamwork and communication skills.
+                                     </p>
+                                   </div>
+
+                                   <!-- Experience -->
+                                   <div id="experience" class="content">
+                                     <h2>Experience</h2>
+
+                                     <h3  class="subheading">Jan 2024 - Present</h3>
+                                     <p><span>Data Analyst Intern, KultureHire</span><br>
+                                       Completed a 90-day internship focused on practical data analysis using Excel, SQL, and Power BI to clean,
+                                       analyze, and visualize data for business insights.
+                                       <br><b>Skills:</b> Excel, SQL, Power BI, Tableau
+                                     </p>
+
+                                     <h3  class="subheading">Jan 2024 - Mar 2024</h3>
+                                     <p><span>Data Analyst Intern, 360DigiTMG</span><br>
+                                       Worked with SQL and Excel for extracting, cleaning, and analyzing large datasets for marketing campaigns.
+                                       <br><b>Skills:</b> SQL, Excel, Python, Data Visualization, Tableau
+                                     </p>
+
+                                     <h3  class="subheading">July 2023 - Sep 2023</h3>
+                                     <p><span>Full Stack Developer Intern, NeoIstone Technologies</span><br>
+                                       Developed and maintained web applications using PHP, HTML, CSS, and MySQL, contributing to smooth user
+                                       experiences.
+                                       <br><b>Skills:</b> PHP, Laravel, HTML, CSS, SQL, Excel
+                                     </p>
+
+                                     <h3  class="subheading">Dec 2023</h3>
+                                     <p><span>SIH Internal Hackathon Winner '23</span><br>
+                                       Participated in a 36-hour hackathon developing a platform to connect citizens with legal professionals.
+                                       Achieved a Top 7 finish with a solution that impressed Ministry stakeholders.
+                                       <br><b>Skills:</b> PHP, SQL, HTML, CSS, Python
+                                     </p>
+
+                                     <h3  class="subheading">Mar 2023</h3>
+                                     <p><span>HACKBIOS'23 Replit User Winner</span><br>
+                                       Participated in a 48-hour hackathon building a web platform empowering student communities and event
+                                       organizers. Recognized for innovation and teamwork.
+                                       <br><b>Skills:</b> SQL, Python, HTML, CSS
+                                     </p>
+                                   </div>
+
+                                   <!-- Skills -->
+                                   <div id="skills" class="content">
+                                     <h2>Technical Skills</h2>
+                                     <p class="subheading"><b>Programming Languages:</b> Python, R, PHP</p>
+                                     <p class="subheading"><b>Web Technologies:</b> HTML, CSS, JavaScript, MySQL, PostgreSQL</p>
+                                     <p class="subheading"><b>Data Analysis Tools:</b> Excel, Tableau, Power BI</p>
+                                     <p class="subheading"><b>Database Management:</b> SQL, PostgreSQL</p>
+                                     <p ><b>Other Skills:</b> Data Visualization, Data Cleaning, Automation, Machine Learning Basics</p>
+                                   </div>
+
+                                   <!-- Projects -->
+                                   <div id="projects" class="content">
+   <h2>Projects</h2>
+
+   <div class="project-item">
+     <a href="projects/dashboard.html" target="_blank">
+       <h3>🔹 HR Analytics Dashboard</h3>
+       <p>Built a Tableau dashboard analyzing HR data to identify employee turnover trends and performance metrics.</p>
+     </a>
+   </div>
+
+   <div class="project-item">
+     <a href="projects/opencv-sketch.html" target="_blank">
+       <h3>🔹 OpenCV – Image to Pencil Sketch</h3>
+       <p>Developed a Python script using OpenCV to convert images into pencil sketches.</p>
+     </a>
+   </div>
+ </div>
+
+                                 </div>
+                               </div>
+                             </section>
+
+                             <!-- Contact Section -->
+   <section class="contact" id="contact">
+     <h2 class="heading">Contact <span>Me</span></h2>
+
+     <div class="contact-container">
+
+       <!-- Left Side -->
+       <div class="contact-left">
+         <h3>Let’s Build Something <span class="great">Great Together</span>!</h3>
+<h2>Contact me through any convenient way — I’d love to discuss your project ideas.</h2>
+         <p><i class='bx bx-envelope'></i> <a href="mailto:ayesha.erml@gmail.com">ayesha.erml@gmail.com</a></p>
+         <p><i class='bx bx-phone'></i> +91 8919536123</p>
+
+         <!-- Social Links -->
+         <div class="social-links">
+           <a href="https://www.linkedin.com/in/s-ayesha-as1401/"><i class='bx bxl-linkedin'></i></a>
+           <a href="https://github.com/shaikayesha-sk"><i class='bx bxl-github'></i></a>
+           <a href="mailto:ayesha.erml@gmail.com"><i class='bx bxl-gmail'></i></a>
+           <a href="https://www.kaggle.com/aass12"><i class="fab fa-kaggle"></i></a>
+         </div>
+
+         <!-- Download CV Button -->
+         <a href="resume.pdf" class="btn" download>Download CV</a>
+       </div>
+
+       <!-- Right Side (Form) -->
+       <form class="contact-right" method="POST" action="mailto:ayesha.erml@gmail.com">
+     <input type="text" placeholder="Your Name" required>
+     <input type="email" placeholder="Your Email" required>
+     <input type="text" placeholder="Subject" required>
+     <textarea rows="6" placeholder="Your Message" required></textarea>
+     <button type="submit" class="btn">Send Message</button>
+ </form>
+
+
+     </div>
+   </section>
+
+
+
+
+
+
+  <!-- custom js -->
+  <script src="index.js">index.js</script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+
+</html>
